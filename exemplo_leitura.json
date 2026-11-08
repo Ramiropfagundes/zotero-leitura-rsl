@@ -1,0 +1,45 @@
+{
+ "colecao": "Minha_RSL",
+ "colecao_key": "ABCD1234",
+ "data": "2026-01-15",
+ "perguntas": {
+  "Q1": "Qual é o tipo de problema que o artigo está tratando?",
+  "Q2": "Como esse problema foi endereçado (métodos e metodologia utilizada)?",
+  "Q3": "Por qual motivo essa metodologia foi utilizada para este problema especificamente?",
+  "Q4": "Quais são as limitações da metodologia utilizada e as limitações do estudo em geral?"
+ },
+ "artigos": {
+  "souza": {
+   "id": "Souza2024",
+   "item": "ITEMKEY1",
+   "attachment": "PDFKEY01",
+   "pdf": "C:/Users/fulano/Zotero/storage/PDFKEY01/Souza et al. - 2024 - Exemplo.pdf",
+   "first_page": 101,
+   "cite": "Souza et al. (2024)",
+   "doi": "10.0000/exemplo.2024.001",
+   "reference": "SOUZA, Ana; LIMA, Bruno. Título do artigo de exemplo. Revista Exemplo, v. 10, n. 2, p. 101–120, 2024.",
+   "answers": {
+    "Q1": [
+     "Problema de <b>priorização</b>: quais fatores mais atrapalham a implementação do processo X na organização Y (p. 102)."
+    ],
+    "Q2": [
+     "Revisão de literatura para levantar os fatores, seguida de questionário com especialistas e agregação estatística das respostas (p. 105–107)."
+    ],
+    "Q3": [
+     "Os autores justificam a agregação estatística pela dificuldade de reunir os especialistas presencialmente (p. 106).",
+     "Não encontrado no texto: por que esse método foi escolhido em vez de alternativas como AHP ou Delphi."
+    ],
+    "Q4": [
+     "<b>Limitações declaradas pelos autores:</b> amostra pequena de especialistas (p. 115).",
+     "<b>Observação do leitor (Claude, não está no texto):</b> os fatores vêm de outro setor e não foram validados para o contexto estudado."
+    ]
+   },
+   "quotes": [
+    ["Q1", 1, "this paper aims to identify the main barriers to the implementation of process X"],
+    ["Q2", 4, "we adopted a survey with experts and aggregated their judgments statistically"],
+    ["Q3", 5, "given the logistical difficulty of bringing the experts together"],
+    ["Q4", 14, "the small number of respondents limits the generalization of the findings"]
+   ]
+  }
+ }
+}
